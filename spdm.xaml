@@ -1,0 +1,27 @@
+﻿<Page x:Class="WpfApp1.spdm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+     
+      Title="spdm" Background="#FFFDF8C6" Height="450" Width="800" WindowWidth="100" WindowHeight="100" >
+
+    <Grid Background="#FFFDF8C6">
+
+        <Label HorizontalAlignment="Left" Margin="280,87,0,0" Content="50 PIECES AVAILABLE" VerticalAlignment="Top" Width="120" Height="35" Background="#FFFDF8C6"/>
+        <Label HorizontalAlignment="Left" Margin="280,42,0,0"  Content="PRICE - 100 AED" VerticalAlignment="Top" Width="120" Background="#FFFDF8C6"/>
+        <Label Content="TURBO SPEEDOMETER" HorizontalAlignment="Left" Margin="64,217,0,0" VerticalAlignment="Top" Width="194" FontFamily="Showcard Gothic" FontSize="16"/>
+        <Button x:Name="atc"  HorizontalAlignment="Left" Margin="280,157,0,0" VerticalAlignment="Top" Width="120" Height="24" Content="add to cart" Click="atc_Click"/>
+        <Label Content="MORE PICTURES" HorizontalAlignment="Left" Margin="64,252,0,0" VerticalAlignment="Top" Width="194" FontFamily="Showcard Gothic" FontSize="14"/>
+        <Label HorizontalAlignment="Left" Margin="495,46,0,0" Content="DESCRIPTION :&#xD;&#xA;1)OBDⅡ Mode Display: vehicle speed, rotate speed, water temperature, voltage, driving distance, driving time, fuel consumption, local time, oil temperature, turbine pressure, 100 km acceleration test.&#xD;&#xA;2)Alarm: overspeed alarm, rotate speed alarm, fatigue driving alert, high water temperature alarm, low voltage alarm, engine fault alarm.&#xD;&#xA;3)Mode Display: speed, voltage, mileage, driving time, local time, altitude, driving direction, number of satellites, acceleration test, compass.&#xD;&#xA;4)The HUD avoids the danger of the driver looking down at the dashboard, which ensures the driver's safety and helps the driver stay in top condition.&#xD;&#xA;5)OBD+ Smart Gauge with Adjustable bracket. 2 installation methods: put on dashboard/stick to windshield." VerticalAlignment="Top" Width="249" Height="201" Background="#FFFDF8C6"/>
+        <Image HorizontalAlignment="Left" Height="118" Margin="73,306,0,0" VerticalAlignment="Top" Width="135" Stretch="UniformToFill" Source="/1.5.jpg"/>
+        <Image HorizontalAlignment="Left" Height="118" Margin="264,306,0,0" VerticalAlignment="Top" Width="136" Stretch="UniformToFill" Source="/1.6.jpg"/>
+        <Image HorizontalAlignment="Left" Height="118" Margin="468,307,0,0" VerticalAlignment="Top" Width="134" Stretch="UniformToFill" Source="/1.7.jpg"/>
+        <Image HorizontalAlignment="Left" Height="149" Margin="64,55,0,0" VerticalAlignment="Top" Width="176" Stretch="UniformToFill" Source="/1.jpg"/>
+        <Grid>
+            <Frame x:Name="mainFrame" NavigationUIVisibility="Hidden"/>
+        </Grid>
+    </Grid>
+</Page>

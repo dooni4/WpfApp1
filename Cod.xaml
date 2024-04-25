@@ -1,0 +1,16 @@
+﻿<Page x:Class="WpfApp1.Cod"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Cod" Background="#FFFDF8C6">
+
+    <Grid Background="#FFFDF8C6">
+        <Label HorizontalAlignment="Center" Margin="0,34,0,0" Content="&#xD;&#xA;                                    CASH OF DEIVERY&#xD;&#xA;" VerticalAlignment="Top" Width="398" Height="75" Background="#FFDE7116" FontSize="18" FontFamily="Showcard Gothic" BorderThickness="3" BorderBrush="black"/>
+        <Label HorizontalAlignment="Center" Margin="0,164,0,0" Content="                                      THANK YOU!!!&#xA;THANK YOU FOR SHOPPING WITH US!! YOUR SHOPPING PACKAGE WILL ARRIVE WITHIN THE SPAN OF 2 WEEK .&#xD;&#xA;IF THERE ARE ANY ERRORS OR DELAY IN THE DELIVERY WE WILL LET YOU KNOW!!!&#xD;&#xA;ENJOY :)&#xA;&#xA;&#xA;" VerticalAlignment="Top" Width="324" Height="104" Background="#FFFDF8C6" BorderBrush="black" BorderThickness="2"/>
+
+    </Grid>
+</Page>

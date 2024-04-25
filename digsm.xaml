@@ -1,0 +1,24 @@
+﻿<Page x:Class="WpfApp1.digsm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d"
+      Title="digsm" Height="450" Width="800" Background="#FFFDF8C6">
+
+    <Grid Background="#FFFDF8C6">
+        <Image HorizontalAlignment="Left" Height="181" Margin="100,10,0,0" VerticalAlignment="Top" Width="178" Source="/3.jpg"/>
+        <Label Content="DIGITAL SPEEDOMETER" HorizontalAlignment="Left" Margin="100,201,0,0" VerticalAlignment="Top" Width="193" FontFamily="Showcard Gothic" FontSize="16"/>
+        <Label HorizontalAlignment="Left" Margin="314,57,0,0" Content="PRICE : 120 AED" VerticalAlignment="Top" Width="120" Background="#FFFDF8C6"/>
+        <Label HorizontalAlignment="Left" Margin="314,91,0,0" Content="STOCK :50 PIECES &#xD;&#xA;AVAILABLE" VerticalAlignment="Top" Width="120" Background="#FFFDF8C6"/>
+        <Button Content="ADD TO CART" HorizontalAlignment="Left" Margin="314,139,0,0" VerticalAlignment="Top" Width="120" Height="28" Background="#FFDE7116"/>
+        <Label HorizontalAlignment="Left" Margin="100,231,0,0" Content="MORE PICTURES" VerticalAlignment="Top" Width="120"  FontFamily="Showcard Gothic" FontSize="14" Background="#FFFDF8C6"/>
+        <Label HorizontalAlignment="Left" Margin="500,27,0,0" Content="DESCRITION :&#xD;&#xA; High-precision Positioning: Utilizes a GPS + Beidou dual-mode chip to provide more accurate vehicle information and navigation.&#xD;&#xA;⏰ Dual Alarm Functions: Equipped with speed alarm and fatigue driving reminder to further ensure driving safety.&#xD;&#xA;⏰ Customizable Ambient Light: Offers 6 switchable ambient lights to ensure clear readability under any lighting conditions.&#xD;&#xA;⏰ Versatile: Display speed, compass, number of satellites, and kilometer mile toggle, etc, meeting various driving needs.&#xD;&#xA;⏰ Flexible Installation: 360-degree rotating suction cup bracket allows for easy adjustment of angle and position to suit different drivers' needs." VerticalAlignment="Top" Width="275" Height="201" Background="#FFFDF8C6" AutomationProperties.IsColumnHeader="True"/>
+        <Image HorizontalAlignment="Left" Height="140" Margin="49,44,0,0" VerticalAlignment="Top" Width="143" Stretch="Fill" Source="/7.jpg"/>
+        <Image HorizontalAlignment="Left" Height="135" Margin="100,289,0,0" VerticalAlignment="Top" Width="136" Source="/6.jpg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="135" Margin="278,289,0,0" VerticalAlignment="Top" Width="136" Stretch="UniformToFill" Source="/6.1.jpg"/>
+        <Image HorizontalAlignment="Left" Height="135" Margin="478,289,0,0" VerticalAlignment="Top" Width="136" Stretch="UniformToFill" Source="/6.2.jpg"/>
+
+    </Grid>
+</Page>
